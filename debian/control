@@ -1,13 +1,13 @@
 Source: ruby-defaults
 Section: ruby
 Priority: optional
-Maintainer: Antonio Terceiro <terceiro@debian.org>
-Uploaders: Christian Hofstaedtler <zeha@debian.org>
+Maintainer: Antonio Terceiro <terceiro@debian.org>,
+            Sorah Fukumori <her@sorah.jp>,
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.7
 Homepage: http://www.ruby-lang.org/
-Vcs-Git: https://anonscm.debian.org/git/collab-maint/ruby-defaults.git
-Vcs-Browser: https://anonscm.debian.org/git/collab-maint/ruby-defaults.git
+Vcs-Git: https://github.com/sorah-rbpkg/ruby-defaults.git
+Vcs-Browser: https://github.com/sorah-rbpkg/ruby-defaults
 Testsuite: autopkgtest
 
 Package: ruby
@@ -88,16 +88,6 @@ Description: Libraries necessary to run Ruby
  This package is a dependency package, which depends on Debian's default Ruby
  version (currently v2.3).
 
-Package: libtcltk-ruby
-Architecture: all
-Depends: ruby2.3-tcltk, ${misc:Depends}
-Description: Tcl/Tk interface for Ruby
- tcltklib is an extension library for Ruby.  It makes Ruby
- programs to be able to use low level interface for the Tcl/Tk.
- .
- This package is a dependency package, which depends on Debian's default Ruby
- version (currently v2.3).
-
 Package: ri
 Architecture: all
 Depends: ruby2.3, ruby2.3-doc, ${misc:Depends}
@@ -117,7 +107,7 @@ Description: Ruby Interactive reference
 
 Package: ruby-full
 Architecture: all
-Depends: ruby, ruby-dev, libtcltk-ruby, ri, ${misc:Depends}
+Depends: ruby, ruby-dev, ri, ${misc:Depends}
 Description: Ruby full installation (default version)
  For many good reasons, the Ruby programming language is split in many
  small different packages. Installing this package will make sure you have
