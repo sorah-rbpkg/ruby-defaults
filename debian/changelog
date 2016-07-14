@@ -1,3 +1,9 @@
+ruby-defaults (1:2.3.0+4nkmi2) unstable; urgency=medium
+
+  * symlink rake
+
+ -- Sorah Fukumori <her@sorah.jp>  Thu, 14 Jul 2016 08:25:47 +0000
+
 ruby-defaults (1:2.3.0+4nkmi1~xenial) xenial; urgency=medium
 
   * me
