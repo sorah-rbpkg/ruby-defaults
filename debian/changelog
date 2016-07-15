@@ -1,4 +1,4 @@
-ruby-defaults (1:2.1.6+0nkmi2) unstable; urgency=medium
+ruby-defaults (1:2.1.6+0nkmi2~trusty) trusty; urgency=medium
 
   * oops, forgot to change RubyDebianDev for 2.1
 
