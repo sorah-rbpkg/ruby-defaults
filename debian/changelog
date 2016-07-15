@@ -1,3 +1,9 @@
+ruby-defaults (1:2.1.6+0nkmi2) unstable; urgency=medium
+
+  * oops, forgot to change RubyDebianDev for 2.1
+
+ -- Sorah Fukumori <her@sorah.jp>  Fri, 15 Jul 2016 05:12:35 +0000
+
 ruby-defaults (1:2.1.6+0nkmi1~trusty) trusty; urgency=medium
 
   * backport to 2.1
