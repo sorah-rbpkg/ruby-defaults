@@ -14,6 +14,7 @@ ruby-defaults (1:2.3.0+4nkmi1) unstable; urgency=medium
 ruby-defaults (1:2.3.0+4) unstable; urgency=medium
 
   * Install ruby.pc symlink only in ruby-dev. (Closes: #820962)
+  * debian/copyright: list copyright for all maintainers in the latest years.
 
  -- Christian Hofstaedtler <zeha@debian.org>  Thu, 14 Apr 2016 07:11:22 +0000
 
