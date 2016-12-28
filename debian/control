@@ -13,7 +13,7 @@ Testsuite: autopkgtest
 Package: ruby
 Architecture: any
 Multi-Arch: allowed
-Depends: ruby2.3, ${misc:Depends}
+Depends: ruby2.4, ${misc:Depends}
 Suggests: ri, ruby-dev
 Conflicts: ruby-activesupport-3.2, ruby-activesupport-2.3
 Breaks:
@@ -30,13 +30,13 @@ Description: Interpreter of object-oriented scripting language Ruby (default ver
  straight-forward, and extensible.
  .
  This package is a dependency package, which depends on Debian's default Ruby
- version (currently v2.3).
+ version (currently v2.4).
 
 Package: ruby-dev
 Section: devel
 Architecture: any
 Multi-Arch: same
-Depends: ruby2.3-dev, ${misc:Depends}
+Depends: ruby2.4-dev, ${misc:Depends}
 Description: Header files for compiling extension modules for Ruby (default version)
  Ruby is the interpreted scripting language for quick and easy
  object-oriented programming.  It has many features to process text
@@ -48,7 +48,7 @@ Description: Header files for compiling extension modules for Ruby (default vers
  many gems.
  .
  This package is a dependency package, which depends on Debian's default Ruby
- version (currently v2.3).
+ version (currently v2.4).
 
 Package: ruby-all-dev
 Section: devel
@@ -76,7 +76,7 @@ Description: Ruby development environment (all versions supported in Debian)
 Package: libruby
 Section: libs
 Architecture: all
-Depends: libruby2.3, ${misc:Depends}
+Depends: libruby2.4, ${misc:Depends}
 Description: Libraries necessary to run Ruby
  Ruby is the interpreted scripting language for quick and easy
  object-oriented programming.  It has many features to process text
@@ -86,11 +86,11 @@ Description: Libraries necessary to run Ruby
  This package includes the 'libruby' library, necessary to run Ruby.
  .
  This package is a dependency package, which depends on Debian's default Ruby
- version (currently v2.3).
+ version (currently v2.4).
 
 Package: ri
 Architecture: all
-Depends: ruby2.3, ruby2.3-doc, ${misc:Depends}
+Depends: ruby2.4, ruby2.4-doc, ${misc:Depends}
 Description: Ruby Interactive reference
  ri is a command line tool that displays descriptions of built-in Ruby
  methods, classes, and modules. For methods, it shows you the calling
@@ -103,7 +103,7 @@ Description: Ruby Interactive reference
  The ri executable itself is in the ruby package.
  .
  This package is a dependency package, which depends on Debian's default Ruby
- version (currently v2.3).
+ version (currently v2.4).
 
 Package: ruby-full
 Architecture: all
@@ -115,5 +115,5 @@ Description: Ruby full installation (default version)
  of the Tcl/Tk bindings for Ruby, which are only recommended.
  .
  This package is a dependency package, which depends on Debian's default Ruby
- version (currently v2.3).
+ version (currently v2.4).
 
