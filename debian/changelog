@@ -1,3 +1,12 @@
+ruby-defaults (1:2.3.3+1nkmi1) unstable; urgency=medium
+
+  * now provides rake
+  * cherry picks from upstream:
+  * debian/copyright: list copyright for all maintainers in the latest years.
+  * fix packaging nitpicks (319903b40a21e4fe49bc71ca258faf838)
+
+ -- Sorah Fukumori <her@sorah.jp>  Wed, 28 Dec 2016 15:38:32 +0000
+
 ruby-defaults (1:2.3.0+4nkmi2~trusty) trusty; urgency=medium
 
   * symlink rake
@@ -14,6 +23,7 @@ ruby-defaults (1:2.3.0+4nkmi1~trusty) trusty; urgency=medium
 ruby-defaults (1:2.3.0+4) unstable; urgency=medium
 
   * Install ruby.pc symlink only in ruby-dev. (Closes: #820962)
+  * debian/copyright: list copyright for all maintainers in the latest years.
 
  -- Christian Hofstaedtler <zeha@debian.org>  Thu, 14 Apr 2016 07:11:22 +0000
 
