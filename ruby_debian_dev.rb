@@ -8,11 +8,11 @@ module RubyDebianDev
 
   has_support_for 'ruby2.4' do
     {
-      version:             '2.4',
-      binary:              '/usr/bin/ruby2.4',
-      api_version:         '2.4.0',
-      shared_library:      'libruby2.4',
-      min_ruby_dependency: 'ruby (>= 1:2.4~0)',
+      version:             '2.5',
+      binary:              '/usr/bin/ruby2.5',
+      api_version:         '2.5.0',
+      shared_library:      'libruby2.5',
+      min_ruby_dependency: 'ruby (>= 1:2.5~0)',
     }
   end
 
