@@ -1,4 +1,4 @@
-ruby-defaults (1:2.5.0+0nkmi1) unstable; urgency=medium
+ruby-defaults (1:2.5.0+0nkmi1~trusty) trusty; urgency=medium
 
   * Make Ruby 2.5 the default
 
