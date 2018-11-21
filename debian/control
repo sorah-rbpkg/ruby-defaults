@@ -1,8 +1,8 @@
 Source: ruby-defaults
 Section: ruby
 Priority: optional
-Maintainer: Antonio Terceiro <terceiro@debian.org>,
-            Sorah Fukumori <her@sorah.jp>,
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>,
+            Sorah Fukumori <her@sorah.jp>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.8
 Homepage: http://www.ruby-lang.org/
