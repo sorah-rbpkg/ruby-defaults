@@ -1,3 +1,9 @@
+ruby-defaults (1:2.4.0+0nkmi2~dist) unstable; urgency=medium
+
+  * Bump just for build strategy change
+
+ -- Sorah Fukumori <her@sorah.jp>  Wed, 21 Nov 2018 22:02:30 +0000
+
 ruby-defaults (1:2.4.0+0nkmi1) unstable; urgency=medium
 
   * Make Ruby 2.4 the default
