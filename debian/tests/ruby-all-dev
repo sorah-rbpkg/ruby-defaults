@@ -9,6 +9,22 @@ describe RubyDebianDev do
     it "installs #{data[:binary]}" do
       File.executable?(data[:binary]).must_equal true
     end
+
+    it "has an associated minimum version of #{ruby}" do
+      v = RubyDebianDev.min_ruby_dependency_for("lib#{ruby}")
+      v.must_match %r{^ruby \(>= .+\)$}
+    end
   end
+
+  it 'provides a Ruby upper bound' do
+    ruby_upper_bound = RubyDebianDev.ruby_upper_bound
+    ruby_upper_bound.must_match %r{^ruby \(<< .+\)}
+  end
+
+  it 'provides list of supported interpreters with default first' do
+    default = File.basename(File.readlink('/usr/bin/ruby'))
+    default.must_equal RubyDebianDev::SUPPORTED_RUBY_VERSIONS.keys.first
+  end
+
 end
 
