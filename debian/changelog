@@ -1,3 +1,9 @@
+ruby-defaults (1:2.6.0+0nkmi1~dist) unstable; urgency=medium
+
+  * Make Ruby 2.6 the default
+
+ -- Sorah Fukumori <her@sorah.jp>  Sun, 30 Dec 2018 04:28:10 +0000
+
 ruby-defaults (1:2.5.2+0nkmi1~dist) unstable; urgency=medium
 
   * Port from debian upstream

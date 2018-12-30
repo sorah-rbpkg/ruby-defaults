@@ -6,14 +6,14 @@ module RubyDebianDev
     RUBY_INTERPRETERS[ruby] = yield
   end
 
-  has_support_for 'ruby2.5' do
+  has_support_for 'ruby2.6' do
     {
-      version:             '2.5',
-      binary:              '/usr/bin/ruby2.5',
-      api_version:         '2.5.0',
-      shared_library:      'libruby2.5',
-      min_ruby_version:    '1:2.5~0',
-      ruby_upper_bound:    '1:2.6~',
+      version:             '2.6',
+      binary:              '/usr/bin/ruby2.6',
+      api_version:         '2.6.0',
+      shared_library:      'libruby2.6',
+      min_ruby_version:    '1:2.6~0',
+      ruby_upper_bound:    '1:2.7~',
     }
   end
 
