@@ -1,3 +1,9 @@
+ruby-defaults (1:2.7.0+0nkmi0~dist) unstable-proposed; urgency=medium
+
+  * Add Ruby 2.7
+
+ -- Sorah Fukumori <her@sorah.jp>  Thu, 30 May 2019 19:48:10 +0000
+
 ruby-defaults (1:2.6.0+0nkmi1~dist) unstable; urgency=medium
 
   * Make Ruby 2.6 the default
