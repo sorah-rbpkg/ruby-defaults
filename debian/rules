@@ -1,5 +1,6 @@
 #!/usr/bin/make -f
 
+include /usr/share/dpkg/architecture.mk
 include /usr/share/dpkg/pkg-info.mk
 
 # XXX remember to regenerate debian/ruby.postinst when you change either of
@@ -29,8 +30,6 @@ debian/ruby.postinst: debian/ruby.postinst.in
 override_dh_gencontrol:
 	./debian/ruby-all-dev-depends >> debian/ruby-all-dev.substvars
 	dh_gencontrol
-
-DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
 
 override_dh_auto_install-arch:
 	dh_auto_install
