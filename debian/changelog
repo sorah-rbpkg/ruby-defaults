@@ -1,3 +1,10 @@
+ruby-defaults (1:2.5.7~0) experimental; urgency=medium
+
+  * Enable building against ruby2.7
+  * Add myself to Uploaders
+
+ -- Lucas Kanashiro <kanashiro@debian.org>  Wed, 27 Nov 2019 18:27:44 -0300
+
 ruby-defaults (1:2.5.2) unstable; urgency=medium
 
   * Team upload.
