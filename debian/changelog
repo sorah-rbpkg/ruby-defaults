@@ -1,4 +1,4 @@
-ruby-defaults (1:2.7.0+0nkmi0~dist) unstable-proposed; urgency=medium
+ruby-defaults (1:2.7.0+0nkmi0~dist) unstable; urgency=medium
 
   * Add Ruby 2.7
 
