@@ -1,4 +1,4 @@
-ruby-defaults (1:2.5.7.1) UNRELEASED; urgency=medium
+ruby-defaults (1:2.5.7.1) unstable; urgency=medium
 
   * d/t/control: Make autopkgtests cross-test-friendly
   * d/t/smoke-test: use $AUTOPKGTEST_TMP instead of the deprecated $ADTTMP
