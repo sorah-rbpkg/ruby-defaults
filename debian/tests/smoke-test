@@ -9,7 +9,7 @@ ruby -v
 
 gem env
 
-gems=$ADTTMP/gems
+gems=$AUTOPKGTEST_TMP/gems
 gem list | tee $gems
 
 # some standard gems should be available
