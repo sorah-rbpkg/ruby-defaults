@@ -1,3 +1,12 @@
+ruby-defaults (1:2.5.7.1) UNRELEASED; urgency=medium
+
+  * d/t/control: Make autopkgtests cross-test-friendly
+  * d/t/smoke-test: use $AUTOPKGTEST_TMP instead of the deprecated $ADTTMP
+  * Declare compliance with Debian Policy 4.5.0
+  * Bump debhelper compaitiblity level to 12
+
+ -- Lucas Kanashiro <kanashiro@debian.org>  Thu, 20 Feb 2020 16:11:01 -0300
+
 ruby-defaults (1:2.5.7) unstable; urgency=medium
 
   * Upload to unstable.
