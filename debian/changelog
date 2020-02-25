@@ -1,8 +1,12 @@
-ruby-defaults (1:2.7) UNRELEASED; urgency=medium
+ruby-defaults (1:2.7~0) experimental; urgency=medium
 
-  * Make Ruby 2.7 the default
+  [ Antonio Terceiro ]
+  * Make Ruby 2.7 the default and drop Ruby 2.5
+  * debian/tests/control: add test-name pkg-config test
+  * debian/tests/ruby-all-dev: remove deprecated usage of global must_match
+  * Remove ruby.postinst, not really needed nowadays
 
- -- Antonio Terceiro <terceiro@debian.org>  Tue, 25 Feb 2020 15:58:34 -0300
+ -- Antonio Terceiro <terceiro@debian.org>  Tue, 25 Feb 2020 16:20:01 -0300
 
 ruby-defaults (1:2.5.7.1) unstable; urgency=medium
 
