@@ -8,7 +8,7 @@ include /usr/share/dpkg/pkg-info.mk
 #
 # $ debian/rules debian/ruby.postinst
 #
-export DEBIAN_DEFAULT_RUBY_VERSION=2.5
+export DEBIAN_DEFAULT_RUBY_VERSION=2.7
 export DEBIAN_RUBY_PROGRAMS = \
   erb \
   gem \

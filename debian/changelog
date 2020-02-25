@@ -1,3 +1,9 @@
+ruby-defaults (1:2.7) UNRELEASED; urgency=medium
+
+  * Make Ruby 2.7 the default
+
+ -- Antonio Terceiro <terceiro@debian.org>  Tue, 25 Feb 2020 15:58:34 -0300
+
 ruby-defaults (1:2.5.7.1) unstable; urgency=medium
 
   * d/t/control: Make autopkgtests cross-test-friendly
