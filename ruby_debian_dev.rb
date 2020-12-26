@@ -28,6 +28,16 @@ module RubyDebianDev
     }
   end
 
+  has_support_for 'ruby3.0' do
+    {
+      version:             '3.0',
+      binary:              '/usr/bin/ruby3.0',
+      api_version:         '3.0.0',
+      shared_library:      'libruby3.0',
+      min_ruby_version:    '1:3.0~0',
+      ruby_upper_bound:    '1:3.0~',
+    }
+  end
 
 
   def self.min_ruby_dependency_for(shared_library)
