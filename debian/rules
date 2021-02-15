@@ -15,6 +15,7 @@ export DEBIAN_RUBY_PROGRAMS = \
   rdoc \
   ri \
   ruby
+export SUPPORTED_API_VERSIONS = $(shell sed -e '/api_version:/!d; s/[^0-9\.]//g ' ruby_debian_dev.rb)
 
 %:
 	dh $@
@@ -34,3 +35,8 @@ override_dh_auto_install-arch:
 	dh_auto_install
 	dh_link -pruby-dev /usr/lib/$(DEB_HOST_MULTIARCH)/pkgconfig/ruby-$(DEBIAN_DEFAULT_RUBY_VERSION).pc \
 		/usr/lib/$(DEB_HOST_MULTIARCH)/pkgconfig/ruby.pc
+	for version in $(SUPPORTED_API_VERSIONS); do \
+		dh_link -pruby-all-dev \
+			/usr/lib/$(DEB_HOST_MULTIARCH)/ruby/$${version}/rbconfig.rb \
+			/usr/lib/$(DEB_HOST_MULTIARCH)/ruby-crossbuild/$${version}/rbconfig.rb; \
+		done
