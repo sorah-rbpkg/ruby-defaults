@@ -1,4 +1,4 @@
-ruby-defaults (1:2.7.4) UNRELEASED; urgency=medium
+ruby-defaults (1:2.7.4) unstable; urgency=medium
 
   [ Jenkins ]
   * Remove constraints unnecessary since stretch
