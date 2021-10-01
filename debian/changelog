@@ -1,3 +1,15 @@
+ruby-defaults (1:2.7.4) UNRELEASED; urgency=medium
+
+  [ Jenkins ]
+  * Remove constraints unnecessary since stretch
+
+  [ Lucas Kanashiro ]
+  * Enable ruby3.0 as an alternative interpreter in unstable
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with Debian Policy 4.6.0.1
+
+ -- Lucas Kanashiro <kanashiro@debian.org>  Fri, 01 Oct 2021 11:48:21 -0300
+
 ruby-defaults (1:2.7.2~exp1) experimental; urgency=medium
 
   * Add support for ruby3.0 as an alternative interpreter.
