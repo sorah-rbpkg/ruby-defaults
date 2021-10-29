@@ -1,3 +1,9 @@
+ruby-defaults (1:2.7.6) unstable; urgency=medium
+
+  * Upload version from experimental to unstable.
+
+ -- Lucas Kanashiro <kanashiro@debian.org>  Fri, 29 Oct 2021 09:44:25 -0300
+
 ruby-defaults (1:2.7.6~exp1) experimental; urgency=medium
 
   [ Lucas Kanashiro ]
