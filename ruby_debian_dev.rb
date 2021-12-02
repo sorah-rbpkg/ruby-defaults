@@ -8,17 +8,6 @@ module RubyDebianDev
 
   # XXX the default Ruby must come first here
 
-  has_support_for 'ruby2.7' do
-    {
-      version:             '2.7',
-      binary:              '/usr/bin/ruby2.7',
-      api_version:         '2.7.0',
-      shared_library:      'libruby2.7',
-      min_ruby_version:    '1:2.7~0',
-      ruby_upper_bound:    '1:2.8~',
-    }
-  end
-
   has_support_for 'ruby3.0' do
     {
       version:             '3.0',
