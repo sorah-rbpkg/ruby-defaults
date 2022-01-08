@@ -1,8 +1,7 @@
 Source: ruby-defaults
 Section: ruby
 Priority: optional
-Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>,
-            Sorah Fukumori <her@sorah.jp>
+Maintainer: Sorah Fukumori <sorah@cookpad.com>
 Build-Depends: debhelper-compat (= 12)
 Standards-Version: 4.5.0
 Homepage: https://www.ruby-lang.org/
