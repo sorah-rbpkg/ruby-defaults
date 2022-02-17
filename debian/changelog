@@ -1,4 +1,4 @@
-ruby-defaults (1:3.0) UNRELEASED; urgency=medium
+ruby-defaults (1:3.0) unstable; urgency=medium
 
   * Re-add ruby2.7 as an alternative interpreter.
     ruby3.0 is still the default but to ease the transition (avoid any
