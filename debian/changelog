@@ -1,4 +1,4 @@
-ruby-defaults (1:3.0+1) UNRELEASED; urgency=medium
+ruby-defaults (1:3.0+1) unstable; urgency=medium
 
   * Remove ruby2.7 support.
 
