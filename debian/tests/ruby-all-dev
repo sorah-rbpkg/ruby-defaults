@@ -12,13 +12,13 @@ describe RubyDebianDev do
 
     it "has an associated minimum version of #{ruby}" do
       v = RubyDebianDev.min_ruby_dependency_for("lib#{ruby}")
-      _(v).must_match %r{^ruby \(>= .+\)$}
+      _(v).must_match %r{^libruby \(>= .+\)$}
     end
   end
 
   it 'provides a Ruby upper bound' do
     ruby_upper_bound = RubyDebianDev.ruby_upper_bound
-    _(ruby_upper_bound).must_match %r{^ruby \(<< .+\)}
+    _(ruby_upper_bound).must_match %r{^libruby \(<< .+\)}
   end
 
   it 'provides list of supported interpreters with default first' do
