@@ -13,7 +13,7 @@ Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-defaults
 Package: ruby
 Architecture: any
 Multi-Arch: allowed
-Depends: ruby3.0, ruby-rubygems, ${misc:Depends}
+Depends: ruby3.0, libruby, ruby-rubygems, ${misc:Depends}
 Suggests: ri, ruby-dev
 Conflicts: ruby-activesupport-3.2, ruby-activesupport-2.3
 Breaks:
@@ -71,7 +71,8 @@ Description: Ruby development environment (all versions supported in Debian)
 
 Package: libruby
 Section: libs
-Architecture: all
+Architecture: any
+Multi-Arch: same
 Depends: libruby3.0, ${misc:Depends}
 Description: Libraries necessary to run Ruby
  Ruby is the interpreted scripting language for quick and easy
