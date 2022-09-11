@@ -53,7 +53,7 @@ module RubyDebianDev
   def self.min_ruby_dependency_for(shared_library)
     RUBY_INTERPRETERS.each do |int,data|
       if data[:shared_library] == shared_library
-        return "ruby (>= %s)" % data[:min_ruby_version]
+        return "libruby (>= %s)" % data[:min_ruby_version]
       end
     end
     return nil
@@ -66,7 +66,7 @@ module RubyDebianDev
     end
     sort.close_write()
     version = sort.read.split.last
-    "ruby (<< #{version})"
+    "libruby (<< #{version})"
   end
 
   #################################################################
