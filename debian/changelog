@@ -1,3 +1,13 @@
+ruby-defaults (1:3.0+3.1) unstable; urgency=medium
+
+  * Enable ruby3.1 as a supported interpreter in unstable.
+  * Switch ruby dependencies to use libruby instead.
+    Now, instead of ruby-foo depends: ruby, we will have ruby-foo depends:
+    libruby, and ruby depends: libruby. This requires libruby to be
+    architecture dependent, and marked as Multi-Arch: same.
+
+ -- Antonio Terceiro <terceiro@debian.org>  Tue, 20 Sep 2022 08:54:17 -0300
+
 ruby-defaults (1:3.0+2) experimental; urgency=medium
 
   * Add support for ruby3.1
