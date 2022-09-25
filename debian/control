@@ -13,7 +13,7 @@ Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-defaults
 Package: ruby
 Architecture: any
 Multi-Arch: allowed
-Depends: ruby3.1, libruby, ruby-rubygems, ${misc:Depends}
+Depends: ruby3.1, libruby (= ${binary:Version}), ruby-rubygems, ${misc:Depends}
 Suggests: ri, ruby-dev
 Conflicts: ruby-activesupport-3.2, ruby-activesupport-2.3
 Breaks:
