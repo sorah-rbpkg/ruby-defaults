@@ -18,6 +18,17 @@ module RubyDebianDev
     }
   end
 
+  has_support_for 'ruby3.2' do
+    {
+      version:             '3.2',
+      binary:              '/usr/bin/ruby3.2',
+      api_version:         '3.2.0',
+      shared_library:      'libruby3.2',
+      min_ruby_version:    '1:3.2~0',
+      ruby_upper_bound:    '1:3.3~',
+    }
+  end
+
   def self.min_ruby_dependency_for(shared_library)
     RUBY_INTERPRETERS.each do |int,data|
       if data[:shared_library] == shared_library
