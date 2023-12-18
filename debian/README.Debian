@@ -24,3 +24,13 @@ Specifically:
 To programmatically list all the supported versions, install the `gem2deb`
 package and run `dh_ruby --print-supported`. To determine which is the default
 version, just dereference the /usr/bin/ruby symbolic link.
+
+
+Skipping some Ruby version when building packages
+-------------------------------------------------
+
+To skip building/testing against a specific Ruby version that is listed as
+suppotted, you can set e.g. RUBY_ALL_DEV_SKIP=ruby3.2 and get ruby3.2 ignored.
+
+This is a developer feature, intended for very specific use cases, and MUST NOT
+be used in any Debian packages to skip tests and whatnot.
