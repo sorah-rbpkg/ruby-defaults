@@ -30,7 +30,7 @@ Skipping some Ruby version when building packages
 -------------------------------------------------
 
 To skip building/testing against a specific Ruby version that is listed as
-suppotted, you can set e.g. RUBY_ALL_DEV_SKIP=ruby3.2 and get ruby3.2 ignored.
+suppotted, you can set e.g. RUBY_ALL_DEV_SKIP=ruby3.3 and get ruby3.3 ignored.
 
 This is a developer feature, intended for very specific use cases, and MUST NOT
 be used in any Debian packages to skip tests and whatnot.

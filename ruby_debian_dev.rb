@@ -11,6 +11,17 @@ module RubyDebianDev
     RUBY_INTERPRETERS[ruby] = yield
   end
 
+  has_support_for 'ruby3.3' do
+    {
+      version:             '3.3',
+      binary:              '/usr/bin/ruby3.3',
+      api_version:         '3.3.0',
+      shared_library:      'libruby3.3',
+      min_ruby_version:    '1:3.3~0',
+      ruby_upper_bound:    '1:3.3~',
+    }
+  end
+
   has_support_for 'ruby3.2' do
     {
       version:             '3.2',
@@ -22,14 +33,14 @@ module RubyDebianDev
     }
   end
 
-  has_support_for 'ruby2.7' do
+  has_support_for 'ruby3.1' do
     {
-      version:             '2.7',
-      binary:              '/usr/bin/ruby2.7',
-      api_version:         '2.7.0',
-      shared_library:      'libruby2.7',
-      min_ruby_version:    '1:2.7~0',
-      ruby_upper_bound:    '1:2.8~',
+      version:             '3.1',
+      binary:              '/usr/bin/ruby3.1',
+      api_version:         '3.1.0',
+      shared_library:      'libruby3.1',
+      min_ruby_version:    '1:3.1~0',
+      ruby_upper_bound:    '1:3.1~',
     }
   end
 
@@ -41,17 +52,6 @@ module RubyDebianDev
       shared_library:      'libruby3.0',
       min_ruby_version:    '1:3.0~0',
       ruby_upper_bound:    '1:3.0~',
-    }
-  end
-
-  has_support_for 'ruby3.1' do
-    {
-      version:             '3.1',
-      binary:              '/usr/bin/ruby3.1',
-      api_version:         '3.1.0',
-      shared_library:      'libruby3.1',
-      min_ruby_version:    '1:3.1~0',
-      ruby_upper_bound:    '1:3.1~',
     }
   end
 
