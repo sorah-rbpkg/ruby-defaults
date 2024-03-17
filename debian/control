@@ -73,7 +73,7 @@ Package: libruby
 Section: libs
 Architecture: any
 Multi-Arch: same
-Depends: libruby3.1, ${misc:Depends}
+Depends: libruby3.1t64, ${misc:Depends}
 Description: Libraries necessary to run Ruby
  Ruby is the interpreted scripting language for quick and easy
  object-oriented programming.  It has many features to process text
