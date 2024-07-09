@@ -23,14 +23,14 @@ module RubyDebianDev
     }
   end
 
-  has_support_for 'ruby3.2' do
+  has_support_for 'ruby3.3' do
     {
-      version:             '3.2',
-      binary:              '/usr/bin/ruby3.2',
-      api_version:         '3.2.0',
-      shared_library:      'libruby3.2',
-      min_ruby_version:    '1:3.2~0',
-      ruby_upper_bound:    '1:3.3~',
+      version:             '3.3',
+      binary:              '/usr/bin/ruby3.3',
+      api_version:         '3.3.0',
+      shared_library:      'libruby3.3',
+      min_ruby_version:    '1:3.3~0',
+      ruby_upper_bound:    '1:3.4~',
     }
   end
 
