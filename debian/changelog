@@ -1,3 +1,10 @@
+ruby-defaults (1:3.4+0nkmi1~dist) unstable; urgency=medium
+
+  * Default to Ruby 3.4
+  * Drop Ruby 3.0
+
+ -- Sorah Fukumori <her@sorah.jp>  Thu, 09 Jan 2025 00:12:23 +0900
+
 ruby-defaults (1:3.3+0nkmi1~dist) unstable; urgency=medium
 
   * Default to Ruby 3.2
