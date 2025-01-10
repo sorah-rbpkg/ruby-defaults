@@ -1,3 +1,9 @@
+ruby-defaults (1:3.1+support3.3) UNRELEASED; urgency=medium
+
+  * Upload to unstable, adding support to ruby3.3
+
+ -- Lucas Kanashiro <kanashiro@debian.org>  Fri, 10 Jan 2025 13:33:30 -0300
+
 ruby-defaults (1:3.1+support3.3~0) experimental; urgency=medium
 
   [ Antonio Terceiro ]
