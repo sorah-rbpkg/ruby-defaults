@@ -12,17 +12,6 @@ module RubyDebianDev
   end
 
   # XXX the default Ruby must come first here
-  has_support_for 'ruby3.1' do
-    {
-      version:             '3.1',
-      binary:              '/usr/bin/ruby3.1',
-      api_version:         '3.1.0',
-      shared_library:      'libruby3.1',
-      min_ruby_version:    '1:3.1~0',
-      ruby_upper_bound:    '1:3.2~',
-    }
-  end
-
   has_support_for 'ruby3.3' do
     {
       version:             '3.3',
