@@ -19,6 +19,7 @@ Conflicts: ruby-activesupport-3.2, ruby-activesupport-2.3
 Breaks:
  ruby-switch (<= 0.1.0),
  ruby-bootsnap (<< 1.4.6-1)
+ puppet-agent (<= 7.24.0)
 Replaces: irb, rdoc, rubygems
 Provides: irb, rdoc, rubygems
 Description: Interpreter of object-oriented scripting language Ruby (default version)
