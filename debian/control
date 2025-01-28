@@ -17,7 +17,8 @@ Suggests: ri, ruby-dev
 Conflicts: ruby-activesupport-3.4, ruby-activesupport-2.3
 Breaks:
  ruby-switch (<= 0.1.0),
- ruby-bootsnap (<< 1.4.6-1)
+ ruby-bootsnap (<< 1.4.6-1),
+ puppet-agent (<= 7.24.0)
 Replaces: irb, rdoc, rubygems, rake
 Provides: irb, rdoc, rubygems, rake
 Description: Interpreter of object-oriented scripting language Ruby (default version)
