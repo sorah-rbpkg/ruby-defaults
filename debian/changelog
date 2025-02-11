@@ -1,3 +1,10 @@
+ruby-defaults (1:3.3) UNRELEASED; urgency=medium
+
+  * Upload to unstable to remove ruby3.1 support.
+    ruby3.3 is the only supported interpreter.
+
+ -- Lucas Kanashiro <kanashiro@debian.org>  Tue, 11 Feb 2025 17:23:48 -0300
+
 ruby-defaults (1:3.3~3.3) experimental; urgency=medium
 
   * Remove ruby3.1 from the list of supported interpreters.
