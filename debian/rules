@@ -12,9 +12,12 @@ export DEBIAN_DEFAULT_RUBY_VERSION=3.3
 export DEBIAN_RUBY_PROGRAMS = \
   erb \
   irb \
+  rbs \
   rdbg \
   rdoc \
   ri \
+  syntax_suggest \
+  typeprof \
   ruby
 export SUPPORTED_API_VERSIONS = $(shell sed -e '/api_version:/!d; s/[^0-9\.]//g ' ruby_debian_dev.rb)
 
