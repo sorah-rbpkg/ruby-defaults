@@ -11,6 +11,17 @@ module RubyDebianDev
     RUBY_INTERPRETERS[ruby] = yield
   end
 
+  has_support_for 'ruby4.1' do
+    {
+      version:             '4.1',
+      binary:              '/usr/bin/ruby4.1',
+      api_version:         '4.1.0',
+      shared_library:      'libruby4.1',
+      min_ruby_version:    '1:4.1~0',
+      ruby_upper_bound:    '1:4.1~',
+    }
+  end
+
   has_support_for 'ruby4.0' do
     {
       version:             '4.0',
