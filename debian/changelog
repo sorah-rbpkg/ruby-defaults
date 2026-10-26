@@ -2,6 +2,8 @@ ruby-defaults (1:4.0+0nkmi2~dist) unstable; urgency=medium
 
   * ruby-all-dev: depend only on Rubies the distro or the apt repository
     has, including the one the distro ships
+  * ruby_debian_dev.rb: bound libruby below the Ruby after the newest
+    one, as our libruby sorts above that Ruby's own version
 
  -- Sorah Fukumori <her@sorah.jp>  Tue, 27 Oct 2026 01:33:02 +0900
 
