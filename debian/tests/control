@@ -1,4 +1,4 @@
-Tests: smoke-test
+Tests: smoke-test, binaries
 Depends: ruby
 Restrictions: allow-stderr
 
