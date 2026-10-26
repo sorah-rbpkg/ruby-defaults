@@ -18,7 +18,7 @@ module RubyDebianDev
       api_version:         '3.4.0',
       shared_library:      'libruby3.4',
       min_ruby_version:    '1:3.4~0',
-      ruby_upper_bound:    '1:3.4~',
+      ruby_upper_bound:    '1:4.0~',
     }
   end
 
@@ -29,7 +29,7 @@ module RubyDebianDev
       api_version:         '3.3.0',
       shared_library:      'libruby3.3',
       min_ruby_version:    '1:3.3~0',
-      ruby_upper_bound:    '1:3.3~',
+      ruby_upper_bound:    '1:3.4~',
     }
   end
 
@@ -40,7 +40,7 @@ module RubyDebianDev
       api_version:         '3.2.0',
       shared_library:      'libruby3.2',
       min_ruby_version:    '1:3.2~0',
-      ruby_upper_bound:    '1:3.2~',
+      ruby_upper_bound:    '1:3.3~',
     }
   end
 
@@ -51,7 +51,7 @@ module RubyDebianDev
       api_version:         '3.1.0',
       shared_library:      'libruby3.1',
       min_ruby_version:    '1:3.1~0',
-      ruby_upper_bound:    '1:3.1~',
+      ruby_upper_bound:    '1:3.2~',
     }
   end
 
